@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+    font-family: Arial;
+    text-align: center;
+    background-color: lightblue;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+a {
+    outline: 0;
+}
+
+.submit-button {
+    margin-top: 20px;
+    width: 280px;
+}
+
+.game-area {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.game-options {
+    border-bottom: 1px dashed #CFCFCF;
+    padding-bottom: 20px;
+}
+
+.game-options select, .game-options input {
+    border: 1px solid #333;
+    padding: 10px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.game-board {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-box, .green-player, .red-player {
+    font-size: 35px;
+    padding: 15px 25px;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    background-color: #d3d3d3;
+    outline: none;
+    text-align: center;
+}
+
+.green-player {
+    background-color: #00801c;
+    color: #FFF;
+    text-align: center;
+}
+
+.red-player {
+    background-color: #c85d5d;
+    color: #FFF;
+    text-align: center;
+}
+
+.score-card {
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+}
+
+.score-card span {
+    font-weight: normal;
+    text-align: center;
+}
+
+.submit-button {
+    background-color: #4c74ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#error {
+    padding: 20px 0px;
+    font-size: large;
+    color: red;
+    font-family: Arial;
+}
+
+#winner {
+    font-size: large;
+    color: #000000;
+    font-family: Arial;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TA TE TI</title>
+  <script type="text/javascript" src="js/index.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<H1>TA-TE-TI</H1>
+<div align>
+  <label for="player1">Jugador 1:</label>
+  <input id="player1" placeholder="Nombre Jugador 1">
+
+  <label for="player2">Jugador 2:</label>
+  <input id="player2" placeholder="Nombre Jugador 2">
+</div>
+<div id="game-board" class="game-board">
+  Pulsa "Comenzar" para empezar.
+</div>
+<div id="error"></div>
+<div id="winner"></div>
+
+<div class="game-area">
+  <input type="submit" value="Comenzar" onclick="getValues()" class="submit-button">
+</div>
+
+
+<div class="score-card">
+  <p>Historial de partidas:</p>
+  Jugador 1: <span id="score-X">0</span> <br>
+  Jugador 2: <span id="score-O">0</span>
+</div>
+</body>
+</html>
